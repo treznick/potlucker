@@ -36,7 +36,10 @@
                     outstring += ingredients[i] + ";";
                 }
                 $.get("/rest/recipes/" + outstring,function (data) {
-                    console.log(data);
+                    yummly_base = "http://yummly.com/recipe/"
+                    $(data.matches).each(function(count, item){
+                       $("ul#recipe-list").append("<li><a href='"+yummly_base+item.id+"'>"+item.recipeName+"</li>")
+                    });
                 })
             })
         });
@@ -48,8 +51,9 @@
     <ul class="users_list">
     </ul>
 </div>
-<p id="search" style="color:red; cursor:pointer;">Potluck it!</p>
+<p id="search" style="color:red; cursor:pointer; border: 1px black solid; width: 5em;">Potluck it!</p>
 <div id="recipes">
+    <ul id="recipe-list"></ul>
 
 </div>
 </body>

@@ -8,10 +8,16 @@
     <ul>
         <li>GET: lists all users in JSON</li>
         <li>GET {key}/{value}: gets a user by key and value</li>
-        <li>POST /create : creates a user, must have name as a string and pantry as a ; delineated string</li>
+        <li>POST /create : creates a user, must have:
+            <ul>
+                <li>a value named "name." This must be a string.</li>
+                <li>a pantry array named "pantry". This must be stored as a ; delineated string</li>
+            </ul>
+        </li>
         <li>GET /delete/{key} : deletes a user by its primary key</li>
     </ul>
     <p>/rest/recipes</p>
+    <p>     This is based on the Yummly API. For more information please visit <a href="https://developer.yummly.com/">https://developer.yummly.com/</a></p>
     <ul>
         <li>GET /{ingredients} : gets recipes by an ingredient string, which is a whitelist string separated by ;</li>
     </ul>
