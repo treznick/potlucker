@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <p>/rest/users</p>
+    <ul>
+        <li>GET: lists all users in JSON</li>
+        <li>GET {key}/{value}: gets a user by key and value</li>
+        <li>POST /create : creates a user, must have name as a string and pantry as a ; delineated string</li>
+        <li>GET /delete/{key} : deletes a user by its primary key</li>
+    </ul>
+    <p>/rest/recipes</p>
+    <ul>
+        <li>GET /{ingredients} : gets recipes by an ingredient string, which is a whitelist string separated by ;</li>
+    </ul>
+
+</body>
+</html>

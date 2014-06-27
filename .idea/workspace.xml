@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b80e0e1d-526b-48e1-b796-319abfd3156c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Potlucker.iml" afterPath="$PROJECT_DIR$/Potlucker.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.properties" afterPath="$PROJECT_DIR$/config.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config.properties" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/potluck.html" afterPath="$PROJECT_DIR$/WebContent/potluck.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="b80e0e1d-526b-48e1-b796-319abfd3156c" name="Default" comment="" />
     <ignored path="Potlucker.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -71,115 +64,122 @@
     <favorites_list name="Potlucker" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="UserService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/potlucker/users/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="284" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="1620">
-              <folding>
-                <element signature="e#2324#2332#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="YummlyService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/potlucker/users/YummlyService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListAllUsersCommand.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/potlucker/command/ListAllUsersCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="0" selection-start="985" selection-end="985" vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="525">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetRecipesCommand.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/potlucker/command/GetRecipesCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="25" selection-start="2178" selection-end="2178" vertical-scroll-proportion="0.0" vertical-offset="741" max-vertical-offset="1200">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1661#1669#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateUserCommand.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/potlucker/command/CreateUserCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="44" selection-start="916" selection-end="956" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1131#1139#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="138" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConnectionProvider.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/potlucker/mongo/ConnectionProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="191" selection-end="240" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeleteUserCommand.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/potlucker/command/DeleteUserCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="34" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetUserCommand.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/potlucker/command/GetUserCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="0" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="885">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="potluck.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WebContent/potluck.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="38" selection-start="1718" selection-end="1718" vertical-scroll-proportion="0.7241379" vertical-offset="255" max-vertical-offset="915">
-              <folding>
-                <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="UserService.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/potlucker/users/UserService.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="89" column="0" selection-start="2848" selection-end="2848" vertical-scroll-proportion="0.0" vertical-offset="1138" max-vertical-offset="1620">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#2324#2332#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="31" column="22" selection-start="1503" selection-end="1503" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="570">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="YummlyService.java" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/potlucker/users/YummlyService.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="15" column="13" selection-start="357" selection-end="357" vertical-scroll-proportion="0.45454547" vertical-offset="0" max-vertical-offset="495">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ListAllUsersCommand.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/potlucker/command/ListAllUsersCommand.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="35" column="0" selection-start="985" selection-end="985" vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="525">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GetRecipesCommand.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/potlucker/command/GetRecipesCommand.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="65" column="25" selection-start="2178" selection-end="2178" vertical-scroll-proportion="0.0" vertical-offset="741" max-vertical-offset="1200">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1661#1669#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CreateUserCommand.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/potlucker/command/CreateUserCommand.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="31" column="44" selection-start="916" selection-end="956" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1131#1139#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="config.properties" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="5" column="0" selection-start="138" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GetUserCommand.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/potlucker/command/GetUserCommand.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="40" column="0" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="885">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="potluck.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/WebContent/potluck.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="38" column="38" selection-start="1718" selection-end="1718" vertical-scroll-proportion="-23.75" vertical-offset="0" max-vertical-offset="915">
+                  <folding>
+                    <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="apidoc.html" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/apidoc.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="15" column="99" selection-start="533" selection-end="533" vertical-scroll-proportion="0.44642857" vertical-offset="0" max-vertical-offset="504">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -228,6 +228,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/potlucker/command/GetRecipesCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/potlucker/users/YummlyService.java" />
         <option value="$PROJECT_DIR$/WebContent/potluck.html" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/apidoc.html" />
       </list>
     </option>
   </component>
@@ -252,7 +253,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="840" />
+    <option name="width" value="1678" />
     <option name="height" value="940" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -966,15 +967,15 @@
       <workItem from="1403475845668" duration="147000" />
       <workItem from="1403743245065" duration="196000" />
       <workItem from="1403750289963" duration="21000" />
-      <workItem from="1403750316910" duration="29940000" />
+      <workItem from="1403750316910" duration="30381000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33045000" />
+    <option name="totallyTimeSpent" value="33486000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="840" height="940" extended-state="0" />
+    <frame x="0" y="22" width="1678" height="940" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -988,7 +989,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32900944" sideWeight="0.29949874" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32900944" sideWeight="0.29889977" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -999,8 +1000,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2669173" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32900944" sideWeight="0.70050126" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1301956" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32900944" sideWeight="0.700489" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1216,13 +1217,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="22" selection-start="1503" selection-end="1503" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="570">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/delete.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="74" selection-start="455" selection-end="455" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="435">
@@ -1320,15 +1314,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/potlucker/users/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="284" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1620">
-          <folding>
-            <element signature="e#2324#2332#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/potlucker/command/GetRecipesCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="65" column="25" selection-start="2178" selection-end="2178" vertical-scroll-proportion="0.0" vertical-offset="741" max-vertical-offset="1200">
@@ -1339,22 +1324,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/potluck.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="38" selection-start="1718" selection-end="1718" vertical-scroll-proportion="-23.75" vertical-offset="0" max-vertical-offset="915">
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="22" selection-start="1503" selection-end="1503" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/potlucker/users/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="0" selection-start="2848" selection-end="2848" vertical-scroll-proportion="0.0" vertical-offset="1138" max-vertical-offset="1620">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2324#2332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/potlucker/users/YummlyService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+        <state line="15" column="13" selection-start="357" selection-end="357" vertical-scroll-proportion="0.45454547" vertical-offset="0" max-vertical-offset="495">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/potluck.html">
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/apidoc.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="38" selection-start="1718" selection-end="1718" vertical-scroll-proportion="0.7241379" vertical-offset="255" max-vertical-offset="915">
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="15" column="99" selection-start="533" selection-end="533" vertical-scroll-proportion="0.44642857" vertical-offset="0" max-vertical-offset="504">
+          <folding />
         </state>
       </provider>
     </entry>
