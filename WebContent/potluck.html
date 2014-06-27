@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="http://code.jquery.com/jquery-latest.min.js">
+    </script>
+    <script>
+        var ingredients = new Array();
+        base_url="/rest/users/";
+        $(document).ready(function(){
+            $.getJSON(base_url,function(data){
+                $.each( data, function( count, object ) {
+                    if(object.key != undefined) {
+                        var $li = $("<li id='"+object.key+"'>"+ object.name+"</li>");
+                        $("ul.users_list").append( $li );
+                        if(object.pantry.length > 0) {
+                            $(object.pantry).each(function(count,el){
+                                $li.append("<br><input id='"+object.key+el+"'type='checkbox' name='"+el+"'>"+el+"<br>");
+                                $("#"+object.key+el).change(function(){
+                                    if($(this).is(":checked")) {
+                                        ingredients.push($(this)[0].name);
+                                    } else {
+                                        ingredients.splice(ingredients.indexOf($(this)[0].name));
+                                    }
+                                })
+                            });
+                        }
+                    }
+                });
+            });
+        });
+        $(document).ready(function(){
+            $("#search").click(function(event){
+                event.preventDefault();
+                var url_base="http://api.yummly.com/v1/api/recipes?_app_id=d1925c2d&_app_key=1d624f78f0429d85a3fe188eb99e685a";
+                for( var i in ingredients) {
+                    url_base += "&allowedIngredient[]=" + ingredients[i];
+                }
+                $.get(url_base,function (data) {
+                    console.log(data);
+                })
+            })
+        });
+    </script>
+</head>
+<body>
+<h1 style="text-align:center;">Make A Potluck</h1>
+<div class="users">
+    <ul class="users_list">
+    </ul>
+</div>
+<p id="search" style="color:red; cursor:pointer;">Potluck it!</p>
+<div id="recipes">
+
+</div>
+</body>
+</html>

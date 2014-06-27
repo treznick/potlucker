@@ -1,0 +1,125 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+body {
+  height: 100%;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-weight: 500;
+  font-size:80px;
+  color:#CD00FE;
+  text-shadow: 1px 1px 1px #000; 
+}
+
+h3 {
+  font-family: 'Pacifico', cursive;
+  font-weight: 500;
+  font-size:60px;
+  color:#CD00FE;
+  text-shadow: 1px 1px 1px #000; 
+}
+
+h4 {
+  font-family: 'Cabin', cursive;
+  font-weight: 500;
+  font-size:20px;
+  color:#CD00FE;
+  text-shadow: 1px 1px 1px #000; 
+}
+
+.lead {
+  font-family: 'Pacifico', cursive;
+	color:#09B176;
+}
+
+.button {
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.button-line {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.button-colored {
+  background-color: #CB1455;
+  border-color: #CB1455;
+}
+
+.leaflet-popup-content {
+  color: black;
+}
+
+legend {
+  font-family: 'Pacifico', cursive;
+  color: red;
+  text-shadow: 1px 1px 1px #000; 
+}
+
+.control-label {
+  font-family: 'Pacifico', cursive;
+  color: black;
+  text-shadow: 1px 1px 1px grey; 
+}
+
+.form-horizontal {
+  width: 70%;
+}
+
+.form-group {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.signup-form {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.form-control {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#map {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.no-border {
+  border: none;
+}
+
+.well {
+  background: none;
+}
+
+
+/* Custom container */
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+  min-height:85%;
+  /*background-color:#110022;*/
+  background-color:#a6fafe;
+  overflow:hidden;
+  background-image: url('../img/pattern-food.png');
+  background-repeat: repeat;
+}
+
+.container-full a {
+  color:#efefef;
+  text-decoration:none;
+}
+
+.container {
+  padding-bottom: 3%;
+}
+
+.v-center {
+  margin-top:7%;
+}
+  

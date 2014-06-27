@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Potlucker | Create a user</title>
+</head>
+<body>
+    <form action="/rest/users/create" method="post">
+        Name: <br><input type="text" name="name"><br>
+        Pantry (please enter as a semicolon separated string, i.e. 'eggs;milk;bread'):<br>
+        <input type="text" name="pantry"><br>
+        <input type="submit" value="Create">
+    </form>
+</body>
+</html>

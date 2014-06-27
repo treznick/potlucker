@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="http://code.jquery.com/jquery-latest.min.js">
+    </script>
+    <script>
+        base_url="/rest/users/";
+        $(document).ready(function(){
+            $.getJSON(base_url,function(data){
+                console.log(data);
+                $.each( data, function( count, object ) {
+                    if(object.key != undefined) {
+                        $("div.users_list").append( "<br/><a href='"+base_url+"key/"+object.key+"'>"+ object.name+"</a>");
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+<h1 style="text-align:center;">Potlucker Users</h1>
+<div class="users_list"></div>
+</body>
+</html>
